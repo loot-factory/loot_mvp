@@ -1,0 +1,19 @@
+.lb_container {
+  width: 250px;
+  height: 400px;
+  border: 1px solid white;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lb_control {
+  width: 100%;
+  border-top: 1px solid white;
+  background-color: black;
+  flex-grow: 1;
+}
+
+.lb_button {
+  width: 80%;
+}

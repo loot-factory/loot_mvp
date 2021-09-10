@@ -1,0 +1,51 @@
+.App {
+  min-height: 100vh;  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-grow: 1;
+}
+
+.App-nav {
+  padding:10px;
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.App-connect {
+  margin: 8px;
+}
+
+.LOOT_BTN {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .App-header {
+    flex-direction: column;
+  }
+
+  .App-logo {
+    order: -1;
+  }
+}
