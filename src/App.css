@@ -1,5 +1,5 @@
 .App {
-  min-height: 100vh;  
+  min-height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
 }
 
 .App-nav {
-  padding:10px;
+  padding: 10px;
   background-color: #282c34;
   display: flex;
   justify-content: space-between;
